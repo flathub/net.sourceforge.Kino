@@ -103,8 +103,8 @@ modules:
               - -DSTATICDEVEL=OFF
             sources:
               - type: archive
-                url: https://github.com/libsdl-org/sdl12-compat/archive/release-1.2.52/sdl12-compat-release-1.2.52.tar.gz
-                sha256: 5bd7942703575554670a8767ae030f7921a0ac3c5e2fd173a537b7c7a8599014
+                url: https://github.com/libsdl-org/sdl12-compat/archive/release-1.2.60/sdl12-compat-release-1.2.60.tar.gz
+                sha256: 73bb66e81cdc389c8cad5ae7f87babc670a9e9aa8f1e89ea7ae19a3c2315ef39
                 x-checker-data:
                   type: anitya
                   project-id: 242769
