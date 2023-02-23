@@ -103,8 +103,8 @@ modules:
               - -DSTATICDEVEL=OFF
             sources:
               - type: archive
-                url: https://github.com/libsdl-org/sdl12-compat/archive/release-1.2.52/sdl12-compat-release-1.2.52.tar.gz
-                sha256: 5bd7942703575554670a8767ae030f7921a0ac3c5e2fd173a537b7c7a8599014
+                url: https://github.com/libsdl-org/sdl12-compat/archive/release-1.2.60/sdl12-compat-release-1.2.60.tar.gz
+                sha256: 029fa24fe9e0d6a15b94f4737a2d3ed3144c5ef920eb82b4c6b30248eb94518b
                 x-checker-data:
                   type: anitya
                   project-id: 242769
@@ -171,8 +171,8 @@ modules:
           - --with-udevdir=${FLATPAK_DEST}/lib/udev
         sources:
           - type: archive
-            url: https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.22.1.tar.bz2
-            sha256: 65c6fbe830a44ca105c443b027182c1b2c9053a91d1e72ad849dfab388b94e31
+            url: https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.24.0.tar.bz2
+            sha256: 17a04144e754cdb42b62df958ec71cf99241a045ff95605c46f04af8aa16c4b6
             x-checker-data:
               type: anitya
               project-id: 9998
